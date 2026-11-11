@@ -1,0 +1,101 @@
+:root {
+  --text: #20252b;
+  --muted: #66717c;
+  --faint: #8a949d;
+  --line: #e2e6e9;
+  --link: #1c5fa8;
+  --link-hover: #123f70;
+  --paper: #ffffff;
+  --wash: #f7f9fa;
+  --max-width: 920px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--paper);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; text-underline-offset: 3px; }
+.container { width: min(calc(100% - 48px), var(--max-width)); margin: 0 auto; }
+
+.site-header { border-bottom: 1px solid var(--line); }
+.header-inner { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.site-name { color: var(--text); font-size: 17px; font-weight: 650; letter-spacing: -.02em; }
+.site-name:hover { color: var(--link); text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 25px; }
+nav a { color: var(--muted); font-size: 13px; white-space: nowrap; }
+nav a:hover { color: var(--link); }
+
+.intro { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 56px; padding: 86px 0 82px; }
+.profile-column { padding-top: 8px; }
+.profile-photo { margin: 0; }
+.profile-photo img { display: block; width: 100%; max-width: 220px; aspect-ratio: 4 / 5; object-fit: cover; object-position: 52% 35%; border: 1px solid var(--line); }
+.kicker, .section-label, .record-meta { color: var(--faint); font-size: 12px; letter-spacing: .02em; }
+.kicker { margin: 0 0 18px; }
+.person-name, h2, h3, p { margin-top: 0; }
+.module-title { margin-bottom: 17px; font-size: 22px; font-weight: 620; letter-spacing: -.035em; line-height: 1.3; }
+.person-name { margin-bottom: 20px; color: var(--text); font-size: 30px; font-weight: 400; line-height: 1.2; letter-spacing: -.045em; }
+.section-icon { display: inline-block; width: auto; height: auto; margin-right: 8px; border: 0; font-size: 16px; line-height: 1; vertical-align: 0; }
+.lead { max-width: 635px; margin-bottom: 13px; font-size: 18px; line-height: 1.7; }
+.lead strong { font-weight: 600; }
+.contact-list { max-width: 620px; margin: 0 0 22px; border-top: 1px solid var(--line); }
+.contact-list div { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 18px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.contact-list dt { color: var(--faint); font-size: 13px; }
+.contact-list dd { margin: 0; font-size: 14px; }
+.placeholder { color: var(--faint); font-style: italic; }
+.content-section { display: grid; grid-template-columns: 66px minmax(0, 1fr); gap: 18px; padding: 46px 0 52px; }
+.section-label { padding-top: 5px; }
+h2 { margin-bottom: 17px; font-size: 25px; font-weight: 620; letter-spacing: -.035em; line-height: 1.3; }
+.section-content > p { max-width: 670px; margin-bottom: 28px; color: var(--muted); }
+.record-list { border-top: 1px solid var(--line); }
+.record { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 26px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.record-meta { padding-top: 2px; white-space: nowrap; }
+h3 { margin-bottom: 5px; font-size: 16px; font-weight: 620; line-height: 1.4; }
+.record p { margin-bottom: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.record strong { color: var(--text); font-weight: 600; }
+.record-highlights { margin: 12px 0 0; padding-left: 18px; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.record-highlights li + li { margin-top: 5px; }
+
+.publication-group + .publication-group { margin-top: 43px; }
+.publication-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin-bottom: 15px; }
+.publication-heading h3 { margin: 0; font-size: 18px; }
+.publication-heading span { color: var(--faint); font-size: 12px; }
+.publication-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.publication-item, .ongoing-project { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 26px; padding: 19px 0; border-bottom: 1px solid var(--line); }
+.publication-year { color: var(--faint); font-size: 12px; white-space: nowrap; }
+.publication-title { margin-bottom: 3px; font-size: 15px; font-weight: 600; }
+.publication-title a { color: var(--text); }
+.publication-title a:hover { color: var(--link); }
+.publication-authors { margin: 0 0 3px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.publication-meta { margin: 0; color: var(--muted); font-size: 13px; }
+.ongoing-project { margin-top: 13px; padding: 15px 14px; border: 1px solid var(--line); background: var(--wash); }
+
+.site-footer { margin-top: 26px; background: var(--wash); border-top: 1px solid var(--line); }
+.footer-inner { display: flex; justify-content: space-between; gap: 20px; padding: 23px 0; color: var(--faint); font-size: 12px; }
+
+@media (max-width: 680px) {
+  .container { width: min(calc(100% - 32px), var(--max-width)); }
+  .header-inner { min-height: 65px; padding: 14px 0; align-items: flex-start; flex-direction: column; gap: 8px; }
+  nav { justify-content: flex-start; gap: 4px 15px; }
+  .intro { grid-template-columns: 1fr; gap: 31px; padding: 62px 0 58px; }
+  .profile-photo img { max-width: 200px; }
+  .module-title { font-size: 21px; }
+  .person-name { font-size: 27px; }
+  .lead { font-size: 17px; }
+  .contact-list div { grid-template-columns: 105px minmax(0, 1fr); gap: 14px; }
+  .content-section { grid-template-columns: 1fr; gap: 2px; padding: 36px 0 42px; }
+  .section-label { padding-top: 0; margin-bottom: 4px; }
+  .record, .publication-item, .ongoing-project { grid-template-columns: 1fr; gap: 2px; padding: 17px 0; }
+  .ongoing-project { padding: 14px; }
+  .publication-heading { display: block; }
+  .publication-heading span { display: block; margin-top: 4px; }
+  .footer-inner { display: block; }
+  .footer-inner span { display: block; }
+  .footer-inner span + span { margin-top: 4px; }
+}
