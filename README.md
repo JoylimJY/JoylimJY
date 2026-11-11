@@ -1,21 +1,24 @@
-# Joy Lim (林佳音) — Personal Homepage
+# Joy Lim (林佳音)
 
-静态个人主页，使用原生 HTML、CSS 和 JavaScript 构建，无需安装依赖。
+Ph.D. student at [THUNLP](http://nlp.csai.tsinghua.edu.cn/), Tsinghua University, advised by [Prof. Zhiyuan Liu](http://nlp.csai.tsinghua.edu.cn/~lzy/).
 
-## 本地预览
+My research interests include **LLM agents**, **reinforcement learning**, and **recursive self-improvement**.
 
-```bash
-python3 -m http.server 8000
-```
+## Education
 
-然后打开 <http://localhost:8000>。
+- **Tsinghua University · THUNLP** — Ph.D. student, 2026/06–Present
+- **Tsinghua University · KEG** — Master's student, 2023/09–2026/06; advised by [Bin Xu](https://keg.cs.tsinghua.edu.cn/persons/xubin/) and [Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/)
+- **Tsinghua University** — Undergraduate, Computer Science and Technology
 
-## 内容
+## Internship
 
-- 页面分区：About Me、Educations、Internship、Publications
-- Publications 区的论文记录来自 Google Scholar，AutoRLBench 和 PostTrainGym 作为 ongoing projects 单独列出
-- 研究方向：智能体、强化学习
-- 教育经历：清华大学 KEG；THUNLP 博士在读
-- 实习经历：面壁智能
-- 个人照片：`image.jpg`
-- 学术主页：[Google Scholar](https://scholar.google.com/citations?user=w-HMhF0AAAAJ)
+- **ModelBest · 面壁智能** — Research intern, 2026/01–Present
+  - Post-training of the MiniCPM5 series
+  - [AutoRLBench](https://thinking-space.github.io/AutoRLBench/): a benchmark for AI agents to diagnose and repair real RL training runs
+
+## Links
+
+- [Google Scholar](https://scholar.google.com/citations?user=w-HMhF0AAAAJ)
+- [GitHub](https://github.com/JoylimJY)
+- [Twitter / X](https://x.com/JoylimJY)
+- [Email](mailto:jy-lin26@mails.tsinghua.edu.cn)
