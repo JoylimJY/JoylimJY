@@ -4,17 +4,12 @@ Ph.D. student at [THUNLP](http://nlp.csai.tsinghua.edu.cn/), Tsinghua University
 
 My research interests include **LLM agents**, **reinforcement learning**, and **recursive self-improvement**.
 
-## Education
+
 
 - **Tsinghua University · THUNLP** — Ph.D. student, 2026/06–Present
 - **Tsinghua University · KEG** — Master's student, 2023/09–2026/06; advised by [Bin Xu](https://keg.cs.tsinghua.edu.cn/persons/xubin/) and [Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/)
 - **Tsinghua University** — Undergraduate, Computer Science and Technology
 
-## Internship
-
-- **ModelBest · 面壁智能** — Research intern, 2026/01–Present
-  - Post-training of the MiniCPM5 series
-  - [AutoRLBench](https://thinking-space.github.io/AutoRLBench/): a benchmark for AI agents to diagnose and repair real RL training runs
 
 ## Links
 
